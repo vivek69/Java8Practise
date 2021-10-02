@@ -6,7 +6,7 @@ import java.util.List;
 public class LambdaOverList {
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	List<String> ab=Arrays.asList("this","is");
+	List<String> ab=Arrays.asList("this","is","my","code");
 	
 	ab.forEach(p->System.out.println(p));
 
