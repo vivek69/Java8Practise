@@ -1,5 +1,5 @@
 package Programs;
-
+// use hashmap to find the dublicate nummber
 import java.util.HashMap;
 
 public class FindDublicatesInArrayUsingHashMap {
