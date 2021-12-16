@@ -1,5 +1,5 @@
 package Programs;
-// use hashmap to find the dublicate nummber
+// use hashmap to find the dublicate nummber in array
 import java.util.HashMap;
 
 public class FindDublicatesInArrayUsingHashMap {
@@ -14,7 +14,7 @@ public class FindDublicatesInArrayUsingHashMap {
 				hm.put(x, hm.get(x) + 1);
 			}
 		}
-		System.out.println("Print dublicate values ");
+		System.out.println("Print dublicate values with HasMap");
 		for(int j : hm.keySet())
 		{
 			if(hm.get(j)>1) {
